@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/aula15.qarlog
+
+Archive:	C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/aula15.qar
+Date:		Thu May 18 18:03:43 2023
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/Aula15.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/RAMMIPS.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/ROMMIPS.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/ROMcontent.mif
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/SinalGenerico.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/ULASomaSub.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/Waveform.vwf
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/aula15.qpf
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/aula15.qsf
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/bancoReg.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/bancoRegistradores.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/edgeDetector.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/muxGenerico2x1.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/registradorGenerico.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/somaConstante.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/somadorGenerio.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/aula15/unidadeControle.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 18 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
