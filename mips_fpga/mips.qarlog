@@ -1,0 +1,37 @@
+Quartus Prime Archive log --	C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/mips.qarlog
+
+Archive:	C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/mips.qar
+Date:		Fri May 26 14:30:03 2023
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/MIPS.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/RAMMIPS.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/ROMMIPS.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/ROMcontent.mif
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/SinalGenerico.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/bancoReg.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/checa30a0.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/checa31.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/componenteSomador.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/conversorHex7Seg.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/decoderFUNCT.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/decoderOPCODE.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/display.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/edgeDetector.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/mips.qpf
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/mips.qsf
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/muxGenerico2x1.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/muxGenerico4x1_1.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/muxGenerico_bit_1.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/registradorGenerico.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/somaConstante.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/somadorGenerio.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/ula_aula16.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/unidadeControle.vhd
+C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_fpga/unidadeControleULA.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 26 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
