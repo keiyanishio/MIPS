@@ -10,18 +10,18 @@ entity mips is
   port   (
     CLOCK_50 : in std_logic;
     KEY: in std_logic_vector(3 downto 0);
-	 func: out std_logic_vector(5 downto 0);
-	 PC_OUT: out std_logic_vector(larguraEnderecos-1 downto 0);
-	 opc: out std_logic_vector(5 downto 0);
-	 imedia: out std_logic_vector(15 downto 0);
+	 --func: out std_logic_vector(5 downto 0);
+	 --PC_OUT: out std_logic_vector(larguraEnderecos-1 downto 0);
+	 --opc: out std_logic_vector(5 downto 0);
+	 --imedia: out std_logic_vector(15 downto 0);
 	 
-	 --LEDR: out std_logic_vector (9 downto 0);
-	 --HEX0, HEX1, HEX2, HEX3, HEX4, HEX5: out std_logic_vector (6 downto 0);
-	 --SW    : in  std_logic_vector(9 downto 0)
+	 LEDR: out std_logic_vector (9 downto 0);
+	 HEX0, HEX1, HEX2, HEX3, HEX4, HEX5: out std_logic_vector (6 downto 0);
+	 SW    : in  std_logic_vector(9 downto 0)
 	 
-	 ula_saida: out std_logic_vector(31 downto 0);
-	 RS_OUT: out std_logic_vector(31 downto 0);
-	 RT_OUT: out std_logic_vector(31 downto 0)
+	 --ula_saida: out std_logic_vector(31 downto 0);
+	 --RS_OUT: out std_logic_vector(31 downto 0);
+	 --RT_OUT: out std_logic_vector(31 downto 0)
   );
 end entity;
 
@@ -131,12 +131,12 @@ begin
 
 
 -- Para simular, fica mais simples tirar o edgeDetector
---gravar:  if simulacao generate
-CLK <= CLOCK_50;
---else generate
---detectorSub0: work.edgeDetector(bordaSubida)
---        port map (clk => CLOCK_50, entrada => (not KEY(0)), saida => CLK);
---end generate;
+gravar:  if simulacao generate
+CLK <= KEY(0);
+else generate
+detectorSub0: work.edgeDetector(bordaSubida)
+        port map (clk => CLOCK_50, entrada => (not KEY(0)), saida => CLK);
+end generate;
 
 
 
@@ -243,15 +243,15 @@ UC_ULA: entity work.unidadeControleULA
                  tipo_r => tipo_r_uc_ula,
                  saida => ula_control); 
 
---display : entity work.display
---             port map (data_out => saida_mux_fpga, HEX0 => dis0,
---							 HEX1 => dis1, HEX2=>dis2, HEX3 => dis3, HEX4 => dis4, HEX5 => dis5);
+display : entity work.display
+             port map (data_out => saida_mux_fpga, HEX0 => dis0,
+							 HEX1 => dis1, HEX2=>dis2, HEX3 => dis3, HEX4 => dis4, HEX5 => dis5);
 							 
---mux_FPGA: entity work.muxGenerico2x1 generic map (larguraDados => 32)
---			port map( entradaA_MUX => saida_pc,
---                 entradaB_MUX => saida_ula,
---                 seletor_MUX => SW(0),
- --                saida_MUX => saida_mux_fpga);
+mux_FPGA: entity work.muxGenerico2x1 generic map (larguraDados => 32)
+			port map( entradaA_MUX => saida_pc,
+                 entradaB_MUX => saida_ula,
+                 seletor_MUX => SW(0),
+                 saida_MUX => saida_mux_fpga);
 					
 UNDIADE_LUI : entity work.LUI generic map(larguraDadoEntrada => 16, larguraDadoSaida => 32)
 			 port map (LUI_IN => imediato_i,
@@ -268,12 +268,12 @@ muxPCJR : entity work.muxGenerico2x1 generic map (larguraDados => 32)
 					
 	
 
---HEX0 <= dis0;
---HEX1 <= dis1;
---HEX2 <= dis2;
---HEX3 <= dis3;
---HEX4 <= dis4;
---HEX5 <= dis5;
+HEX0 <= dis0;
+HEX1 <= dis1;
+HEX2 <= dis2;
+HEX3 <= dis3;
+HEX4 <= dis4;
+HEX5 <= dis5;
 
 
 opcode<=saida_rom(31 downto 26);
@@ -287,21 +287,21 @@ imediato_i <= saida_rom(15 downto 0);
 
 
 
-ula_saida <= saida_ula;
+--ula_saida <= saida_ula;
 
-RS_OUT <= saida_rs;
-RT_OUT <= saida_rt;
+--RS_OUT <= saida_rs;
+--RT_OUT <= saida_rt;
 
-Operacao_Ula <= selUla;
+--Operacao_Ula <= selUla;
 escreve <= hab_esc;
 
-func<=funct;
-opc <= opcode;
-imedia <= imediato_i;
+--func<=funct;
+--opc <= opcode;
+--imedia <= imediato_i;
 
 sinal_in<=saida_rom(15 downto 0);
 
-PC_OUT<=saida_pc;
+--PC_OUT<=saida_pc;
 
 sel_beq <= hab_beq;
 
@@ -325,7 +325,7 @@ tipo_r_uc_ula <= tipo_r;
 
 sel_andi_ori <= andi_ori;
 
---LEDR(3 downto 0) <= saida_mux_fpga(27 downto 24);
---LEDR(7 downto 4) <= saida_mux_fpga(31 downto 28);
+LEDR(3 downto 0) <= saida_mux_fpga(27 downto 24);
+LEDR(7 downto 4) <= saida_mux_fpga(31 downto 28);
 
 end architecture;

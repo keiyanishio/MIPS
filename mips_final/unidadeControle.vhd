@@ -40,6 +40,9 @@ architecture comportamento of unidadeControle is
 
   
   begin
+  
+      jr <= '1' when opcode = "000000" and funct = JR_OP else '0';
+		
 		hab_esc <= '1' when (opcode = "000000" or opcode = LW or opcode = ADDI or opcode = ORI
 									or opcode = ANDI or opcode = JAL or opcode = LUI or opcode = SLTI
 									) else '0';
@@ -84,7 +87,6 @@ architecture comportamento of unidadeControle is
 					  
 	   tipo_r <= '1' when opcode = "000000" else '0';
 		
-		jr <= '1' when opcode = "000000" and funct = JR_OP else '0';
 		
 		andi_ori <= '1' when opcode = ANDI or opcode = ORI else '0';
 		

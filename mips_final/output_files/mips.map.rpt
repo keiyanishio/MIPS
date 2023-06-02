@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mips
-Thu Jun 01 17:56:10 2023
+Fri Jun 02 17:07:19 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -64,48 +64,55 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  56. Parameter Settings for User Entity Instance: SinalGenerico:SINAL_ESTENDE
  57. Parameter Settings for User Entity Instance: muxGenerico2x1:muxPC_BEQ_JMP
  58. Parameter Settings for User Entity Instance: unidadeControleULA:UC_ULA|muxGenerico2x1:MUX
- 59. Parameter Settings for User Entity Instance: LUI:UNDIADE_LUI
- 60. Parameter Settings for User Entity Instance: muxGenerico_bit_1:muxBEQBNE
- 61. Parameter Settings for User Entity Instance: muxGenerico2x1:muxPCJR
- 62. Port Connectivity Checks: "muxGenerico2x1:muxPC_BEQ_JMP"
- 63. Port Connectivity Checks: "muxGenerico4x1:muxULAMEM"
- 64. Port Connectivity Checks: "ula_aula16:ULA1|checa31:BIT31"
- 65. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT30"
- 66. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT29"
- 67. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT28"
- 68. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT27"
- 69. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT26"
- 70. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT25"
- 71. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT24"
- 72. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT23"
- 73. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT22"
- 74. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT21"
- 75. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT20"
- 76. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT19"
- 77. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT18"
- 78. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT17"
- 79. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT16"
- 80. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT15"
- 81. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT14"
- 82. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT13"
- 83. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT12"
- 84. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT11"
- 85. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT10"
- 86. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT9"
- 87. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT8"
- 88. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT7"
- 89. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT6"
- 90. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT5"
- 91. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT4"
- 92. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT3"
- 93. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT2"
- 94. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT1"
- 95. Port Connectivity Checks: "muxGenerico4x1:muxRTRD"
- 96. Port Connectivity Checks: "somadorGenerico:incrementaImediato"
- 97. Port Connectivity Checks: "registradorGenerico:PC"
- 98. Post-Synthesis Netlist Statistics for Top Partition
- 99. Elapsed Time Per Partition
-100. Analysis & Synthesis Messages
+ 59. Parameter Settings for User Entity Instance: muxGenerico2x1:mux_FPGA
+ 60. Parameter Settings for User Entity Instance: LUI:UNDIADE_LUI
+ 61. Parameter Settings for User Entity Instance: muxGenerico_bit_1:muxBEQBNE
+ 62. Parameter Settings for User Entity Instance: muxGenerico2x1:muxPCJR
+ 63. Port Connectivity Checks: "display:display|conversorHex7Seg:display5"
+ 64. Port Connectivity Checks: "display:display|conversorHex7Seg:display4"
+ 65. Port Connectivity Checks: "display:display|conversorHex7Seg:display3"
+ 66. Port Connectivity Checks: "display:display|conversorHex7Seg:display2"
+ 67. Port Connectivity Checks: "display:display|conversorHex7Seg:display1"
+ 68. Port Connectivity Checks: "display:display|conversorHex7Seg:display0"
+ 69. Port Connectivity Checks: "muxGenerico2x1:muxPC_BEQ_JMP"
+ 70. Port Connectivity Checks: "muxGenerico4x1:muxULAMEM"
+ 71. Port Connectivity Checks: "ula_aula16:ULA1|checa31:BIT31"
+ 72. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT30"
+ 73. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT29"
+ 74. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT28"
+ 75. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT27"
+ 76. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT26"
+ 77. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT25"
+ 78. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT24"
+ 79. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT23"
+ 80. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT22"
+ 81. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT21"
+ 82. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT20"
+ 83. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT19"
+ 84. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT18"
+ 85. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT17"
+ 86. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT16"
+ 87. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT15"
+ 88. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT14"
+ 89. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT13"
+ 90. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT12"
+ 91. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT11"
+ 92. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT10"
+ 93. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT9"
+ 94. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT8"
+ 95. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT7"
+ 96. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT6"
+ 97. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT5"
+ 98. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT4"
+ 99. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT3"
+100. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT2"
+101. Port Connectivity Checks: "ula_aula16:ULA1|checa30a0:BIT1"
+102. Port Connectivity Checks: "muxGenerico4x1:muxRTRD"
+103. Port Connectivity Checks: "somadorGenerico:incrementaImediato"
+104. Port Connectivity Checks: "registradorGenerico:PC"
+105. Post-Synthesis Netlist Statistics for Top Partition
+106. Elapsed Time Per Partition
+107. Analysis & Synthesis Messages
 
 
 
@@ -132,14 +139,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Jun 01 17:56:09 2023       ;
+; Analysis & Synthesis Status     ; Successful - Fri Jun 02 17:07:18 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; mips                                        ;
 ; Top-level Entity Name           ; mips                                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 788                                         ;
-; Total pins                      ; 161                                         ;
+; Total registers                 ; 792                                         ;
+; Total pins                      ; 67                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -278,8 +285,10 @@ https://fpgasoftware.intel.com/eula.
 ; muxGenerico2x1.vhd               ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/muxGenerico2x1.vhd      ;         ;
 ; muxGenerico_bit_1.vhd            ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/muxGenerico_bit_1.vhd   ;         ;
 ; MIPS.vhd                         ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd                ;         ;
+; display.vhd                      ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/display.vhd             ;         ;
 ; decoderOPCODE.vhd                ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/decoderOPCODE.vhd       ;         ;
 ; decoderFUNCT.vhd                 ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/decoderFUNCT.vhd        ;         ;
+; conversorHex7Seg.vhd             ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/conversorHex7Seg.vhd    ;         ;
 ; componenteSomador.vhd            ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/componenteSomador.vhd   ;         ;
 ; checa31.vhd                      ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/checa31.vhd             ;         ;
 ; checa30a0.vhd                    ; yes             ; User VHDL File  ; C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/checa30a0.vhd           ;         ;
@@ -288,31 +297,31 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
 
 
-+--------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                  ;
-+---------------------------------------------+----------------+
-; Resource                                    ; Usage          ;
-+---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 772            ;
-;                                             ;                ;
-; Combinational ALUT usage for logic          ; 825            ;
-;     -- 7 input functions                    ; 151            ;
-;     -- 6 input functions                    ; 277            ;
-;     -- 5 input functions                    ; 170            ;
-;     -- 4 input functions                    ; 71             ;
-;     -- <=3 input functions                  ; 156            ;
-;                                             ;                ;
-; Dedicated logic registers                   ; 788            ;
-;                                             ;                ;
-; I/O pins                                    ; 161            ;
-;                                             ;                ;
-; Total DSP Blocks                            ; 0              ;
-;                                             ;                ;
-; Maximum fan-out node                        ; CLOCK_50~input ;
-; Maximum fan-out                             ; 788            ;
-; Total fan-out                               ; 6840           ;
-; Average fan-out                             ; 3.53           ;
-+---------------------------------------------+----------------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimate of Logic utilization (ALMs needed) ; 804          ;
+;                                             ;              ;
+; Combinational ALUT usage for logic          ; 932          ;
+;     -- 7 input functions                    ; 133          ;
+;     -- 6 input functions                    ; 357          ;
+;     -- 5 input functions                    ; 170          ;
+;     -- 4 input functions                    ; 109          ;
+;     -- <=3 input functions                  ; 163          ;
+;                                             ;              ;
+; Dedicated logic registers                   ; 792          ;
+;                                             ;              ;
+; I/O pins                                    ; 67           ;
+;                                             ;              ;
+; Total DSP Blocks                            ; 0            ;
+;                                             ;              ;
+; Maximum fan-out node                        ; KEY[0]~input ;
+; Maximum fan-out                             ; 792          ;
+; Total fan-out                               ; 7153         ;
+; Average fan-out                             ; 3.85         ;
++---------------------------------------------+--------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -320,138 +329,150 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                 ; Entity Name         ; Library Name ;
 +------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------+---------------------+--------------+
-; |mips                                    ; 825 (1)             ; 788 (0)                   ; 0                 ; 0          ; 161  ; 0            ; |mips                                                               ; mips                ; work         ;
-;    |ROMMIPS:ROM1|                        ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ROMMIPS:ROM1                                                  ; ROMMIPS             ; work         ;
-;    |bancoReg:Registradores|              ; 544 (544)           ; 756 (756)                 ; 0                 ; 0          ; 0    ; 0            ; |mips|bancoReg:Registradores                                        ; bancoReg            ; work         ;
+; |mips                                    ; 932 (1)             ; 792 (0)                   ; 0                 ; 0          ; 67   ; 0            ; |mips                                                               ; mips                ; work         ;
+;    |ROMMIPS:ROM1|                        ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ROMMIPS:ROM1                                                  ; ROMMIPS             ; work         ;
+;    |bancoReg:Registradores|              ; 552 (552)           ; 760 (760)                 ; 0                 ; 0          ; 0    ; 0            ; |mips|bancoReg:Registradores                                        ; bancoReg            ; work         ;
+;    |display:display|                     ; 42 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display                                               ; display             ; work         ;
+;       |conversorHex7Seg:display0|        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display|conversorHex7Seg:display0                     ; conversorHex7Seg    ; work         ;
+;       |conversorHex7Seg:display1|        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display|conversorHex7Seg:display1                     ; conversorHex7Seg    ; work         ;
+;       |conversorHex7Seg:display2|        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display|conversorHex7Seg:display2                     ; conversorHex7Seg    ; work         ;
+;       |conversorHex7Seg:display3|        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display|conversorHex7Seg:display3                     ; conversorHex7Seg    ; work         ;
+;       |conversorHex7Seg:display4|        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display|conversorHex7Seg:display4                     ; conversorHex7Seg    ; work         ;
+;       |conversorHex7Seg:display5|        ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|display:display|conversorHex7Seg:display5                     ; conversorHex7Seg    ; work         ;
 ;    |muxGenerico2x1:muxPCJR|              ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|muxGenerico2x1:muxPCJR                                        ; muxGenerico2x1      ; work         ;
+;    |muxGenerico2x1:mux_FPGA|             ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|muxGenerico2x1:mux_FPGA                                       ; muxGenerico2x1      ; work         ;
 ;    |muxGenerico4x1:muxRTRD|              ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|muxGenerico4x1:muxRTRD                                        ; muxGenerico4x1      ; work         ;
 ;    |registradorGenerico:PC|              ; 2 (2)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |mips|registradorGenerico:PC                                        ; registradorGenerico ; work         ;
 ;    |somaConstante:incrementaPC|          ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|somaConstante:incrementaPC                                    ; somaConstante       ; work         ;
 ;    |somadorGenerico:incrementaImediato|  ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|somadorGenerico:incrementaImediato                            ; somadorGenerico     ; work         ;
-;    |ula_aula16:ULA1|                     ; 131 (8)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1                                               ; ula_aula16          ; work         ;
-;       |checa30a0:BIT0|                   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT0                                ; checa30a0           ; work         ;
+;    |ula_aula16:ULA1|                     ; 162 (8)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1                                               ; ula_aula16          ; work         ;
+;       |checa30a0:BIT0|                   ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT0                                ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT0|componenteSomador:somador      ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT0|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT0|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT0|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT10|                  ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT10                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT10|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT10|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT10|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT11|                  ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11|componenteSomador:somador     ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT11|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11|componenteSomador:somador     ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT11|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT12|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT12                               ; checa30a0           ; work         ;
+;       |checa30a0:BIT12|                  ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT12                               ; checa30a0           ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT12|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
-;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT12|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
+;          |muxGenerico_bit_1:muxB|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT12|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT13|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT13                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT13|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT13|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT13|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT14|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT14                               ; checa30a0           ; work         ;
+;       |checa30a0:BIT14|                  ; 7 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT14                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT14|componenteSomador:somador     ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT14|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT14|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT14|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT15|                  ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT15                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT15|componenteSomador:somador     ; componenteSomador   ; work         ;
+;       |checa30a0:BIT15|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT15                               ; checa30a0           ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT15|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT15|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT16|                  ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16|componenteSomador:somador     ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT16|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16|componenteSomador:somador     ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT16|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT17|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT17                               ; checa30a0           ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT17|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT17|                  ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT17                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT17|componenteSomador:somador     ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT17|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT17|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT18|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT18                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT18|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT18|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT18|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT19|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT19                               ; checa30a0           ; work         ;
+;       |checa30a0:BIT19|                  ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT19                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT19|componenteSomador:somador     ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT19|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT19|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT19|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT1|                   ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT1                                ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT1|componenteSomador:somador      ; componenteSomador   ; work         ;
+;       |checa30a0:BIT1|                   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT1                                ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT1|componenteSomador:somador      ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT1|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT1|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT20|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT20                               ; checa30a0           ; work         ;
+;       |checa30a0:BIT20|                  ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT20                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT20|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT20|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT20|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT21|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT21                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT21|componenteSomador:somador     ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT21|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT21|componenteSomador:somador     ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT21|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT21|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT22|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT22                               ; checa30a0           ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT22|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT22|                  ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT22                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT22|componenteSomador:somador     ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT22|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT22|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT23|                  ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT23                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT23|componenteSomador:somador     ; componenteSomador   ; work         ;
+;       |checa30a0:BIT23|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT23                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT23|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT23|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT23|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT24|                  ; 7 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24|componenteSomador:somador     ; componenteSomador   ; work         ;
+;       |checa30a0:BIT24|                  ; 8 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
-;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
+;          |muxGenerico_bit_1:muxB|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT24|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT25|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT25                               ; checa30a0           ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT25|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT25|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT26|                  ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT26                               ; checa30a0           ; work         ;
+;       |checa30a0:BIT26|                  ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT26                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT26|componenteSomador:somador     ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT26|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT26|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT26|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT27|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT27                               ; checa30a0           ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT27|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT27|                  ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT27                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT27|componenteSomador:somador     ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT27|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT27|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT28|                  ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT28                               ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT28|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT28|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT28|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT29|                  ; 7 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT29                               ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT29|componenteSomador:somador     ; componenteSomador   ; work         ;
+;       |checa30a0:BIT29|                  ; 7 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT29                               ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT29|componenteSomador:somador     ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT29|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT29|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT2|                   ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT2                                ; checa30a0           ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT2|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT2|                   ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT2                                ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT2|componenteSomador:somador      ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT2|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT2|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT30|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT30                               ; checa30a0           ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT30|muxGenerico4x1_1:muxResultado ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT30|muxGenerico_bit_1:muxB        ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT3|                   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT3                                ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT3|componenteSomador:somador      ; componenteSomador   ; work         ;
+;       |checa30a0:BIT3|                   ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT3                                ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT3|componenteSomador:somador      ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT3|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT3|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT4|                   ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4                                ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4|componenteSomador:somador      ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT4|                   ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4                                ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4|componenteSomador:somador      ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT4|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT5|                   ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT5                                ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT5|componenteSomador:somador      ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT5|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT5|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT6|                   ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6                                ; checa30a0           ; work         ;
-;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6|componenteSomador:somador      ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT6|                   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6                                ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6|componenteSomador:somador      ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT6|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT7|                   ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT7                                ; checa30a0           ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT7|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
+;       |checa30a0:BIT7|                   ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT7                                ; checa30a0           ; work         ;
+;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT7|componenteSomador:somador      ; componenteSomador   ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT7|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT7|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
 ;       |checa30a0:BIT8|                   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT8                                ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT8|componenteSomador:somador      ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT8|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT8|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
-;       |checa30a0:BIT9|                   ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT9                                ; checa30a0           ; work         ;
+;       |checa30a0:BIT9|                   ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT9                                ; checa30a0           ; work         ;
 ;          |componenteSomador:somador|     ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT9|componenteSomador:somador      ; componenteSomador   ; work         ;
-;          |muxGenerico4x1_1:muxResultado| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT9|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
+;          |muxGenerico4x1_1:muxResultado| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT9|muxGenerico4x1_1:muxResultado  ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa30a0:BIT9|muxGenerico_bit_1:muxB         ; muxGenerico_bit_1   ; work         ;
 ;       |checa31:BIT31|                    ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa31:BIT31                                 ; checa31             ; work         ;
 ;          |componenteSomador:somador|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa31:BIT31|componenteSomador:somador       ; componenteSomador   ; work         ;
 ;          |muxGenerico4x1_1:muxResultado| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa31:BIT31|muxGenerico4x1_1:muxResultado   ; muxGenerico4x1_1    ; work         ;
 ;          |muxGenerico_bit_1:muxB|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|ula_aula16:ULA1|checa31:BIT31|muxGenerico_bit_1:muxB          ; muxGenerico_bit_1   ; work         ;
 ;    |unidadeControle:UC|                  ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|unidadeControle:UC                                            ; unidadeControle     ; work         ;
-;    |unidadeControleULA:UC_ULA|           ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|unidadeControleULA:UC_ULA                                     ; unidadeControleULA  ; work         ;
-;       |decoderFUNCT:decFUNCT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|unidadeControleULA:UC_ULA|decoderFUNCT:decFUNCT               ; decoderFUNCT        ; work         ;
-;       |muxGenerico2x1:MUX|               ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|unidadeControleULA:UC_ULA|muxGenerico2x1:MUX                  ; muxGenerico2x1      ; work         ;
+;    |unidadeControleULA:UC_ULA|           ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|unidadeControleULA:UC_ULA                                     ; unidadeControleULA  ; work         ;
+;       |muxGenerico2x1:MUX|               ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips|unidadeControleULA:UC_ULA|muxGenerico2x1:MUX                  ; muxGenerico2x1      ; work         ;
 +------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -725,11 +746,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; bancoReg:Registradores|registrador~583  ; Lost fanout                                 ;
 ; bancoReg:Registradores|registrador~967  ; Lost fanout                                 ;
 ; bancoReg:Registradores|registrador~839  ; Lost fanout                                 ;
-; bancoReg:Registradores|registrador~712  ; Lost fanout                                 ;
-; bancoReg:Registradores|registrador~584  ; Lost fanout                                 ;
-; bancoReg:Registradores|registrador~968  ; Lost fanout                                 ;
-; bancoReg:Registradores|registrador~840  ; Lost fanout                                 ;
-; Total Number of Removed Registers = 268 ;                                             ;
+; Total Number of Removed Registers = 264 ;                                             ;
 +-----------------------------------------+---------------------------------------------+
 
 
@@ -744,16 +761,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                        ;                                ; bancoReg:Registradores|registrador~807, bancoReg:Registradores|registrador~871, ;
 ;                                        ;                                ; bancoReg:Registradores|registrador~710, bancoReg:Registradores|registrador~582, ;
 ;                                        ;                                ; bancoReg:Registradores|registrador~966, bancoReg:Registradores|registrador~711, ;
-;                                        ;                                ; bancoReg:Registradores|registrador~583, bancoReg:Registradores|registrador~839  ;
+;                                        ;                                ; bancoReg:Registradores|registrador~583, bancoReg:Registradores|registrador~967, ;
+;                                        ;                                ; bancoReg:Registradores|registrador~839                                          ;
 ; bancoReg:Registradores|registrador~934 ; Stuck at GND                   ; bancoReg:Registradores|registrador~838                                          ;
-;                                        ; due to stuck port clock_enable ;                                                                                 ;
-; bancoReg:Registradores|registrador~680 ; Stuck at GND                   ; bancoReg:Registradores|registrador~712                                          ;
-;                                        ; due to stuck port clock_enable ;                                                                                 ;
-; bancoReg:Registradores|registrador~681 ; Stuck at GND                   ; bancoReg:Registradores|registrador~968                                          ;
-;                                        ; due to stuck port clock_enable ;                                                                                 ;
-; bancoReg:Registradores|registrador~552 ; Stuck at GND                   ; bancoReg:Registradores|registrador~584                                          ;
-;                                        ; due to stuck port clock_enable ;                                                                                 ;
-; bancoReg:Registradores|registrador~808 ; Stuck at GND                   ; bancoReg:Registradores|registrador~840                                          ;
 ;                                        ; due to stuck port clock_enable ;                                                                                 ;
 +----------------------------------------+--------------------------------+---------------------------------------------------------------------------------+
 
@@ -763,28 +773,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 788   ;
+; Total registers                              ; 792   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 758   ;
+; Number of registers using Clock Enable       ; 762   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mips|registradorGenerico:PC|DOUT[1]                                         ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |mips|registradorGenerico:PC|DOUT[31]                                        ;
-; 4:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; Yes        ; |mips|registradorGenerico:PC|DOUT[17]                                        ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |mips|ula_aula16:ULA1|checa30a0:BIT0|muxGenerico_bit_1:muxB|saida_MUX        ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 62 LEs               ; 0 LEs                  ; No         ; |mips|ula_aula16:ULA1|checa30a0:BIT1|muxGenerico4x1_1:muxResultado|saida_MUX ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips|unidadeControleULA:UC_ULA|muxGenerico2x1:MUX|saida_MUX[1]              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mips|registradorGenerico:PC|DOUT[0]                                          ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |mips|registradorGenerico:PC|DOUT[28]                                         ;
+; 4:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; Yes        ; |mips|registradorGenerico:PC|DOUT[25]                                         ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 62 LEs               ; 0 LEs                  ; No         ; |mips|ula_aula16:ULA1|checa30a0:BIT14|muxGenerico4x1_1:muxResultado|saida_MUX ;
+; 6:1                ; 32 bits   ; 128 LEs       ; 128 LEs              ; 0 LEs                  ; No         ; |mips|ula_aula16:ULA1|checa30a0:BIT12|muxGenerico_bit_1:muxB|saida_MUX        ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips|unidadeControleULA:UC_ULA|muxGenerico2x1:MUX|saida_MUX[2]               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------+
@@ -1266,6 +1276,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico2x1:mux_FPGA ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: LUI:UNDIADE_LUI ;
 +--------------------+-------+---------------------------------+
@@ -1295,6 +1315,72 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; larguradados   ; 32    ; Signed Integer                             ;
 +----------------+-------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "display:display|conversorHex7Seg:display5" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; apaga    ; Input ; Info     ; Stuck at GND                            ;
+; negativo ; Input ; Info     ; Stuck at GND                            ;
+; overflow ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "display:display|conversorHex7Seg:display4" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; apaga    ; Input ; Info     ; Stuck at GND                            ;
+; negativo ; Input ; Info     ; Stuck at GND                            ;
+; overflow ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "display:display|conversorHex7Seg:display3" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; apaga    ; Input ; Info     ; Stuck at GND                            ;
+; negativo ; Input ; Info     ; Stuck at GND                            ;
+; overflow ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "display:display|conversorHex7Seg:display2" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; apaga    ; Input ; Info     ; Stuck at GND                            ;
+; negativo ; Input ; Info     ; Stuck at GND                            ;
+; overflow ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "display:display|conversorHex7Seg:display1" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; apaga    ; Input ; Info     ; Stuck at GND                            ;
+; negativo ; Input ; Info     ; Stuck at GND                            ;
+; overflow ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "display:display|conversorHex7Seg:display0" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; apaga    ; Input ; Info     ; Stuck at GND                            ;
+; negativo ; Input ; Info     ; Stuck at GND                            ;
+; overflow ; Input ; Info     ; Stuck at GND                            ;
++----------+-------+----------+-----------------------------------------+
 
 
 +----------------------------------------------------------+
@@ -1629,30 +1715,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 788                         ;
-;     ENA               ; 758                         ;
+; arriav_ff             ; 792                         ;
+;     ENA               ; 762                         ;
 ;     plain             ; 30                          ;
-; arriav_lcell_comb     ; 829                         ;
+; arriav_lcell_comb     ; 933                         ;
 ;     arith             ; 62                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 31                          ;
 ;         3 data inputs ; 1                           ;
 ;         4 data inputs ; 15                          ;
 ;         5 data inputs ; 14                          ;
-;     extend            ; 151                         ;
-;         7 data inputs ; 151                         ;
-;     normal            ; 616                         ;
+;     extend            ; 133                         ;
+;         7 data inputs ; 133                         ;
+;     normal            ; 738                         ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 32                          ;
-;         2 data inputs ; 68                          ;
-;         3 data inputs ; 26                          ;
-;         4 data inputs ; 56                          ;
+;         1 data inputs ; 51                          ;
+;         2 data inputs ; 51                          ;
+;         3 data inputs ; 28                          ;
+;         4 data inputs ; 94                          ;
 ;         5 data inputs ; 156                         ;
-;         6 data inputs ; 277                         ;
-; boundary_port         ; 161                         ;
+;         6 data inputs ; 357                         ;
+; boundary_port         ; 67                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 20.00                       ;
-; Average LUT depth     ; 13.14                       ;
+; Average LUT depth     ; 13.27                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1671,7 +1757,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Thu Jun 01 17:55:55 2023
+    Info: Processing started: Fri Jun 02 17:07:06 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mips -c mips
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1749,9 +1835,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file lui.vhd
     Info (12022): Found design unit 1: LUI-comportamento File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/LUI.vhd Line: 19
     Info (12023): Found entity 1: LUI File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/LUI.vhd Line: 4
 Info (12127): Elaborating entity "mips" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at MIPS.vhd(52): object "Operacao_Ula" assigned a value but never read File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 52
-Warning (10541): VHDL Signal Declaration warning at MIPS.vhd(53): used implicit default value for signal "selUla" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 53
 Warning (10036): Verilog HDL or VHDL warning at MIPS.vhd(77): object "saida_ula_mem" assigned a value but never read File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 77
+Warning (10873): Using initial value X (don't care) for net "LEDR[9..8]" at MIPS.vhd(18) File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 18
 Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:PC" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 144
 Info (12128): Elaborating entity "somaConstante" for hierarchy "somaConstante:incrementaPC" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 147
 Info (12128): Elaborating entity "somadorGenerico" for hierarchy "somadorGenerico:incrementaImediato" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 150
@@ -1813,6 +1898,8 @@ Info (12128): Elaborating entity "unidadeControleULA" for hierarchy "unidadeCont
 Info (12128): Elaborating entity "decoderOPCODE" for hierarchy "unidadeControleULA:UC_ULA|decoderOPCODE:decOPCODE" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/unidadeControleULA.vhd Line: 19
 Info (12128): Elaborating entity "decoderFUNCT" for hierarchy "unidadeControleULA:UC_ULA|decoderFUNCT:decFUNCT" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/unidadeControleULA.vhd Line: 22
 Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "unidadeControleULA:UC_ULA|muxGenerico2x1:MUX" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/unidadeControleULA.vhd Line: 25
+Info (12128): Elaborating entity "display" for hierarchy "display:display" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 246
+Info (12128): Elaborating entity "conversorHex7Seg" for hierarchy "display:display|conversorHex7Seg:display0" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/display.vhd Line: 28
 Info (12128): Elaborating entity "LUI" for hierarchy "LUI:UNDIADE_LUI" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 256
 Info (276014): Found 2 instances of uninferred RAM logic
     Info (276007): RAM logic "bancoReg:Registradores|registrador" is uninferred due to asynchronous read logic File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/bancoReg.vhd Line: 50
@@ -1859,24 +1946,34 @@ Warning (14026): LATCH primitive "muxGenerico4x1:muxRTRD|saida_MUX[2]" is perman
 Warning (14026): LATCH primitive "muxGenerico4x1:muxRTRD|saida_MUX[3]" is permanently enabled File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/muxGenerico4x1.vhd Line: 16
 Warning (14026): LATCH primitive "muxGenerico4x1:muxRTRD|saida_MUX[4]" is permanently enabled File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/muxGenerico4x1.vhd Line: 16
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "opc[4]" is stuck at GND File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 15
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 18
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 18
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 12 registers lost all their fanouts during netlist optimizations.
+Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 4 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 12
+Warning (21074): Design contains 13 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "CLOCK_50" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 11
     Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 12
     Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 12
     Warning (15610): No output dependent on input pin "KEY[3]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 12
-Info (21057): Implemented 1713 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 5 input pins
-    Info (21059): Implemented 156 output pins
-    Info (21061): Implemented 1552 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 54 warnings
-    Info: Peak virtual memory: 4842 megabytes
-    Info: Processing ended: Thu Jun 01 17:56:10 2023
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:27
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/nishi/OneDrive/Documentos/DESCOMP/MIPS/mips_final/MIPS.vhd Line: 20
+Info (21057): Implemented 1708 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 52 output pins
+    Info (21061): Implemented 1641 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 63 warnings
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Fri Jun 02 17:07:19 2023
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:24
 
 
