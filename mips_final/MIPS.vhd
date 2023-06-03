@@ -159,8 +159,8 @@ muxBeq : entity work.muxGenerico2x1 generic map (larguraDados => 32)
 muxRTRD : entity work.muxGenerico4x1 generic map (larguraDados => 5)
         port map( ent0_MUX => RT,
                  ent1_MUX =>  RD,
-					  ent2_MUX => "11111", 
-					  ent3_MUX => "00000",
+					  ent2_MUX => 5X"1F", 
+					  ent3_MUX => 5X"00",
                  seletor_MUX => sel_rt_rd,
                  saida_MUX => saida_mux_rt_rd); 
 				
@@ -182,7 +182,7 @@ muxULAMEM : entity work.muxGenerico4x1 generic map (larguraDados => 32)
 					  
 					  
 RAM1 : entity work.RAMMIPS  generic map (dataWidth => 32, addrWidth => 32, memoryAddrWidth => 6)
-          port map (clk => CLK, Endereco => saida_ula, Dado_in => saida_rs, 
+          port map (clk => CLK, Endereco => saida_ula, Dado_in => saida_rt, 
 			           Dado_out => saida_ram, we => WE, re => RE);
 			 
 
@@ -195,7 +195,7 @@ Registradores : entity work.bancoReg   generic map (larguraDados => larguraEnder
 						  enderecoA => RS, 
 						  enderecoB => RT,
 						  enderecoC => saida_mux_rt_rd,
-						  dadoEscritaC => saida_ula,
+						  dadoEscritaC => saida_ula_mem,
 						  escreveC => escreve,
 						  saidaA => saida_rs,
 						  saidaB => saida_rt);
@@ -253,7 +253,7 @@ mux_FPGA: entity work.muxGenerico2x1 generic map (larguraDados => 32)
                  seletor_MUX => SW(0),
                  saida_MUX => saida_mux_fpga);
 					
-UNDIADE_LUI : entity work.LUI generic map(larguraDadoEntrada => 16, larguraDadoSaida => 32)
+EXTENDE_LUI : entity work.LUI generic map(larguraDadoEntrada => 16, larguraDadoSaida => 32)
 			 port map (LUI_IN => imediato_i,
 							LUI_OUT => saida_lui);
 
