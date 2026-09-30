@@ -8,7 +8,7 @@ The final implementation integrates the processor datapath, control logic, regis
 
 ## Architecture
 
-The final design is organized as a non-pipelined processor datapath:
+A simplified high-level view of the non-pipelined processor datapath is shown below:
 
 ```mermaid
 flowchart LR
