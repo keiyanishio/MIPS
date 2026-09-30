@@ -10,33 +10,26 @@ The final implementation integrates the processor datapath, control logic, regis
 
 The final design is organized as a non-pipelined processor datapath:
 
-```text
-                    ┌──────────────────┐
-                    │ Instruction ROM  │
-                    └────────┬─────────┘
-                             │
-                             ▼
-┌──────────────┐      ┌──────────────┐      ┌────────────────┐
-│ Program      │─────▶│ Instruction  │─────▶│ Control Unit   │
-│ Counter      │      │ Fields       │      └───────┬────────┘
-└──────┬───────┘      └──────┬───────┘              │
-       │                     │                      │
-       │                     ▼                      ▼
-       │              ┌──────────────┐       ┌──────────────┐
-       │              │ Register     │──────▶│ ALU Control  │
-       │              │ Bank         │       └──────┬───────┘
-       │              └──────┬───────┘              │
-       │                     │                      ▼
-       │                     └──────────────▶┌──────────────┐
-       │                                    │ ALU          │
-       │                                    └──────┬───────┘
-       │                                           │
-       │                                           ▼
-       │                                    ┌──────────────┐
-       │                                    │ Data Memory  │
-       │                                    └──────┬───────┘
-       │                                           │
-       └──────────────────── Write Back ◀──────────┘
+```mermaid
+flowchart LR
+    PC[Program Counter] --> ROM[Instruction ROM]
+    ROM --> IF[Instruction Fields]
+
+    IF --> CU[Control Unit]
+    IF --> RF[Register Bank]
+
+    CU --> ALUC[ALU Control]
+    ALUC --> ALU[ALU]
+    RF --> ALU
+
+    ALU --> DM[Data Memory]
+    ALU --> WB[Write Back]
+    DM --> WB
+    WB --> RF
+
+    CU --> NPC[Branch / Jump Selection]
+    ALU --> NPC
+    NPC --> PC
 ```
 
 The top-level module also implements branch and jump selection, immediate extension, memory access and write-back multiplexing.
