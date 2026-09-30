@@ -11,44 +11,21 @@ The final implementation integrates the processor datapath, control logic, regis
 The final design is organized as a non-pipelined processor datapath:
 
 ```mermaid
-flowchart TB
+flowchart LR
     PC[Program Counter] --> ROM[Instruction ROM]
-    ROM --> INST[Instruction Fields]
+    ROM --> RF[Register Bank]
+    ROM --> CU[Control Unit]
 
-    INST --> RF[Register Bank]
-    INST --> CU[Control Unit]
-    INST --> ALUC[ALU Control]
-    CU --> ALUC
+    RF --> ALU[ALU]
+    CU --> ALU
 
-    INST --> IMM[Immediate Extension]
-    RF -->|rs| ALU[ALU]
-    RF -->|rt| OPMUX[ALU Operand Mux]
-    IMM --> OPMUX
-    OPMUX --> ALU
-    ALUC --> ALU
+    ALU --> MEM[Data Memory]
+    ALU --> WB[Write Back]
+    MEM --> WB
+    WB --> RF
 
-    ALU --> DM[Data Memory]
-    ALU --> WBMUX[Write Back Mux]
-    DM --> WBMUX
-
-    PC --> PC4[PC + 4]
-    PC4 --> WBMUX
-    INST --> LUI[LUI]
-    LUI --> WBMUX
-    WBMUX --> RF
-
-    ALU --> ZERO[Zero Flag]
-    ZERO --> NPC[Next PC Selection]
-
-    PC4 --> BRANCH[Branch Target]
-    IMM --> BRANCH
-    BRANCH --> NPC
-
-    INST --> JUMP[Jump Target]
-    JUMP --> NPC
-
-    RF -->|rs for jr| NPC
-    CU --> NPC
+    CU --> NPC[Branch / Jump Control]
+    ALU --> NPC
     NPC --> PC
 ```
 
